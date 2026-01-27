@@ -6,8 +6,8 @@ inventory = {
 }
 for i in inventory:
     if inventory[i][0] < 30:
-        print(f"{i} needs restocking")
+        print(f"{i} need restocking.")
     elif inventory[i][0] > 100:
-        print(f"{i} should be sold at the discounted price of {inventory[i][2]}")
+        print(f"{i} should be sold at the discounted price of {inventory[i][2]}.")
     else:
-        print(f"{i} should be sold at the regular price of {inventory[i][1]}")
+        print(f"{i} should be sold at the regular price of {inventory[i][1]}.")
